@@ -1,8 +1,10 @@
-# SexyNow Global
+# sexynow
 
-**[Download v1.0.0 ZIP for Chrome](https://github.com/tintedmoderni/sexynow-global/releases/download/v1.0.0/sexynow-global.zip)** · [Browse files](dist-global/)
+**Undress, try sexy outfits, and swap to sexy characters in webpage videos.**
 
-Prebuilt **SexyNow v1.0.0** Chrome extension for reference-guided character and outfit replacement in webpage videos. The current interface includes **Undress** and **Swap** modes, and the package includes adult reference presets.
+**[Download v1.0.0 ZIP for Chrome](https://github.com/tintedmoderni/sexynow/releases/download/v1.0.0/sexynow.zip)** · [Browse files](dist-global/)
+
+**sexynow v1.0.0** is a Chrome extension with reference-guided Undress mode, sexy outfit swaps, and sexy character replacement. The current interface uses the labels **Undress** and **Swap**. Use only authorized media featuring consenting adults; the package includes adult reference presets.
 
 The unpacked extension files are available in [dist-global/](dist-global/): manifest, runtime JavaScript, styles, images, WASM and supporting assets. These are prebuilt distribution files; original development source code, dependency lockfile and build configuration are not included. The original installation ZIP is also available in Releases.
 
@@ -16,12 +18,12 @@ The unpacked extension files are available in [dist-global/](dist-global/): mani
 
 **You need:** desktop Chrome 116+, internet access, and your own **Xmax or Decart API key with available credits**. Processing may incur provider charges. Downloading this extension does not include a key or credits.
 
-1. **[Download sexynow-global.zip](https://github.com/tintedmoderni/sexynow-global/releases/download/v1.0.0/sexynow-global.zip)** and extract it.
+1. **[Download sexynow.zip](https://github.com/tintedmoderni/sexynow/releases/download/v1.0.0/sexynow.zip)** and extract it.
 2. In Chrome, open **chrome://extensions/** and enable **Developer mode**.
 3. Click **Load unpacked**. Select the extracted **dist-global** folder containing **manifest.json**, not the ZIP or its outer download folder.
 4. Keep the extracted folder. Pin SexyNow from Chrome's Extensions menu if desired, then refresh any video pages already open.
 
-Use the named **sexynow-global.zip** asset. The v1.0.0 page's automatic **Source code** archives come from an earlier documentation-only commit and are not the installer. Alternatively, **Code → Download ZIP** on the current main branch includes the unpacked extension.
+Use the named **sexynow.zip** asset. The v1.0.0 page's automatic **Source code** archives come from an earlier documentation-only commit and are not the installer. Alternatively, **Code → Download ZIP** on the current main branch includes the unpacked extension.
 
 The release ZIP is the unchanged original. Its SHA-256 is in [SHA256SUMS.txt](SHA256SUMS.txt). **__MACOSX** is archive metadata, not the extension folder.
 
@@ -62,4 +64,4 @@ Do not create or distribute non-consensual intimate imagery, sexual material inv
 
 Bundled components retain their own licenses and publisher permissions. See [third-party notices](THIRD_PARTY_NOTICES.md) and [license copies](licenses/). The complete dependency/notice inventory has not been reconstructed from the missing development project. No claim of GitHub approval, complete security review or verified cloud moderation is made. The release remains marked **Pre-release**.
 
-[Report a problem](https://github.com/tintedmoderni/sexynow-global/issues/new) with your Chrome version, extension version, provider, error and reproduction steps. Remove API keys and private media; use SFW screenshots.
+[Report a problem](https://github.com/tintedmoderni/sexynow/issues/new) with your Chrome version, extension version, provider, error and reproduction steps. Remove API keys and private media; use SFW screenshots.
