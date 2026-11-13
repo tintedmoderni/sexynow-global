@@ -1,6 +1,6 @@
 # SexyNow Global
 
-**[Download v1.0.0 ZIP for Chrome](https://github.com/tintedmoderni/sexynow-global/releases/download/v1.0.0/sexynow-global.zip)** · **[简体中文安装与使用](README.zh-CN.md)** · [Browse files](dist-global/)
+**[Download v1.0.0 ZIP for Chrome](https://github.com/tintedmoderni/sexynow-global/releases/download/v1.0.0/sexynow-global.zip)** · [Browse files](dist-global/)
 
 Prebuilt **SexyNow v1.0.0** Chrome extension for reference-guided character and outfit replacement in webpage videos. The current interface includes **Undress** and **Swap** modes, and the package includes adult reference presets.
 
