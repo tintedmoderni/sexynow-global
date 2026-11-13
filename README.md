@@ -2,18 +2,24 @@
 
 Prebuilt **SexyNow v1.0.0** Chrome extension for reference-guided character and outfit replacement in webpage videos. The current interface includes **Undress** and **Swap** modes, and the package includes adult reference presets.
 
-This repository distributes a compiled package. Original source code, dependency lockfile and build configuration are not included.
+The unpacked extension files are available in [dist-global/](dist-global/): manifest, runtime JavaScript, styles, images, WASM and supporting assets. These are prebuilt distribution files; original development source code, dependency lockfile and build configuration are not included. The original installation ZIP is also available in Releases.
+
+## Repository contents
+
+- **dist-global/**: the unpacked extension, with its original directory structure.
+- **Releases**: the original ZIP installation package.
+- **SHA256SUMS.txt**: checksum of that original release ZIP.
 
 ## Installation
 
 Requires **Chrome 116 or later**.
 
-1. Download **sexynow-global.zip** from this repository's **Releases** page.
+1. Select **Code → Download ZIP** on the repository main branch, or download **sexynow-global.zip** from **Releases**.
 2. Extract the archive.
 3. Open **chrome://extensions/** and enable **Developer mode**.
 4. Select **Load unpacked** and choose the extracted **dist-global** folder containing **manifest.json**.
 
-The release ZIP is the original supplied archive. Its SHA-256 is recorded in **SHA256SUMS.txt**. The **__MACOSX** directory contains archive metadata and is not needed for installation.
+The v1.0.0 release tag predates the unpacked files: use the named sexynow-global.zip release asset for installation rather than that tag's automatically generated Source code archives. The named release ZIP is the original supplied archive. Its SHA-256 is recorded in **SHA256SUMS.txt**. The **__MACOSX** directory contains archive metadata and is not needed for installation.
 
 ## Services, permissions and data
 

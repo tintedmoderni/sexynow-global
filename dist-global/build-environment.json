@@ -1,0 +1,8 @@
+{
+  "balanceRegion": "global",
+  "sdkRegion": "global",
+  "sdkEnvironment": "global",
+  "apiBaseURL": "https://api.xmax.cloud/open/api/v1",
+  "platformURL": "https://platform.xmax.ai/",
+  "realtimeBaseURL": "https://api.xmax.ai/open/api/v1"
+}

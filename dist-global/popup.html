@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SexyNow</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header id="settings-header"><span class="logo" aria-hidden="true"><img src="brand-icon.png" alt="" draggable="false"></span><h1><img class="brand-wordmark" src="brand-wordmark.png" alt="SexyNow" draggable="false"></h1><div class="balance" title="Available credits"><span id="balance-label">Credits:</span><strong id="credits">—</strong><button id="view-balance" hidden>Credits ↗</button></div><button id="topup" aria-controls="pricing-view" aria-expanded="false">Top up <span aria-hidden="true">→</span></button></header>
+<main>
+<section id="settings-view" aria-label="Settings">
+<div class="controls-setting" title="Show or hide video controls on this page">
+<span id="controls-label">Show video controls</span>
+<button id="controls-toggle" class="switch" type="button" role="switch" aria-checked="true" aria-labelledby="controls-label" disabled><span aria-hidden="true"></span></button>
+</div>
+<p id="controls-error" role="status" hidden></p>
+<div id="account-status" class="status" role="status" hidden></div>
+<div id="settings">
+<label for="provider">Model</label><select id="provider" disabled><option value="xmax">Xmax · x2.1</option><option value="decart">Decart · Lucy 2.5 / VTON 3.6</option></select>
+
+<label for="key">API key</label>
+<div class="key-field"><input id="key" disabled type="password" placeholder="Paste your API key" autocomplete="off" spellcheck="false" aria-describedby="key-error" aria-invalid="false"><div class="key-actions"><button type="button" id="reveal" aria-label="Show API key" title="Show API key" aria-pressed="false"><svg class="eye-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><svg class="eye-closed" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 3 18 18M10.6 5.1A12 12 0 0 1 12 5c6.5 0 10 7 10 7a19 19 0 0 1-3.1 4M6.2 6.2A22 22 0 0 0 2 12s3.5 7 10 7a12 12 0 0 0 5.1-1.2M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg></button><button id="clear-key" type="button" aria-label="Clear API key" title="Clear API key" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div></div>
+<p id="key-error" role="alert" hidden></p>
+</div>
+</section>
+<section id="pricing-view" aria-label="Top up" hidden>
+<div class="pricing-header"><button id="pricing-back" class="icon-button" aria-label="Back to settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h14"/></svg></button><h2>Top up</h2><button id="popup-close" class="icon-button" aria-label="Close popup"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+<div class="price-grid">
+<article class="price-card"><h3>Xmax</h3><p class="model">Model: x2.1</p><div class="purchase-row"><div><p class="price">≈ US$0.0017<span>/sec</span></p><p class="per-minute">US$0.10/min</p></div><button data-buy="xmax" aria-label="Buy credits on Xmax">Buy <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></button></div></article>
+<article class="price-card"><h3>Decart</h3><p class="model">Model: Lucy 2.5 / Lucy VTON 3.6</p><div class="purchase-row"><div><p class="price">US$0.02<span>/sec</span></p><p class="per-minute">US$1.20/min</p></div><button data-buy="decart" aria-label="Buy credits on Decart">Buy <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></button></div></article>
+</div>
+</section>
+</main><script type="module" src="popup.js"></script>
+</body></html>
